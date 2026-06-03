@@ -1,12 +1,18 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import sevaImg from "../../assets/home_img/projects/seva_img.jpeg";
+import bachpanshalaImg from "../../assets/home_img/projects/bachpanshala.jpeg";
+import jeevImg from "../../assets/home_img/projects/jeev.jpeg";
+import udaanImg from "../../assets/home_img/projects/udaan.jpeg";
+import prakritiImg from "../../assets/home_img/projects/prakriti.jpeg";
+import vikasImg from "../../assets/home_img/projects/vikas.jpeg";
 
 const ProjectCard = () => {
   const projects = [
     {
       name: "Seva",
       description: "Providing food, clothes, and essentials to those in need.",
-      bgImage: "../src/assets/home_img/projects/seva_img.jpeg",
+      bgImage: sevaImg,
       iconColor: "text-orange-600 bg-orange-50",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -17,7 +23,7 @@ const ProjectCard = () => {
     {
       name: "Bachpanshala",
       description: "Providing education and care to underprivileged children.",
-      bgImage: "../src/assets/home_img/projects/bachpanshala.jpeg",
+      bgImage: bachpanshalaImg,
       iconColor: "text-red-600 bg-red-50",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -28,7 +34,7 @@ const ProjectCard = () => {
     {
       name: "Jeev",
       description: "Supporting, rescuing, and caring for animals.",
-      bgImage: "../src/assets/home_img/projects/jeev.jpeg", 
+      bgImage: jeevImg, 
       iconColor: "text-amber-700 bg-amber-50",
       _icon: (
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -45,7 +51,7 @@ const ProjectCard = () => {
     {
       name: "Udaan",
       description: "Empowering women with skills and opportunities.",
-      bgImage: "../src/assets/home_img/projects/udaan.jpeg",
+      bgImage: udaanImg,
       iconColor: "text-purple-600 bg-purple-50",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -57,7 +63,7 @@ const ProjectCard = () => {
     {
       name: "Prakriti",
       description: "Protecting environment through clean-up drives and plantation.",
-      bgImage: "../src/assets/home_img/projects/prakriti.jpeg",
+      bgImage: prakritiImg,
       iconColor: "text-green-600 bg-green-50",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -68,7 +74,7 @@ const ProjectCard = () => {
     {
       name: "Vikas",
       description: "Helping youth grow through internships and skill-building.",
-      bgImage: "../src/assets/home_img/projects/vikas.jpeg",
+      bgImage: vikasImg,
       iconColor: "text-blue-600 bg-blue-50",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

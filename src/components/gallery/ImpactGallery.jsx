@@ -13,6 +13,59 @@ import {
   FaCamera,
   FaArrowRight,
 } from "react-icons/fa";
+import img1 from "../../assets/project_img/s1.png"
+import img2 from "../../assets/project_img/s2.png"
+import img3 from "../../assets/project_img/s3.png"
+import img4 from "../../assets/project_img/s4.png"
+import img5 from "../../assets/project_img/seva.png"
+import img6 from "../../assets/project_img/seva2.png"
+import img7 from "../../assets/project_img/b.png"
+import img8 from "../../assets/project_img/b1.png"
+import img9 from "../../assets/project_img/b2.png"
+import img10 from "../../assets/project_img/b3.png"
+import img11 from "../../assets/project_img/b4.png"
+import img12 from "../../assets/project_img/j1.png"
+import img13 from "../../assets/project_img/jeeva.png"
+import img14 from "../../assets/project_img/j2.png"
+import img15 from "../../assets/project_img/j3.png"
+import img16 from "../../assets/project_img/j4.png"
+import img17 from "../../assets/project_img/u1.png"
+import img18 from "../../assets/project_img/u2.png"
+import img19 from "../../assets/project_img/u3.png"
+import img20 from "../../assets/project_img/u4.png"
+import img21 from "../../assets/project_img/udaan.png"
+import img22 from "../../assets/project_img/p1.png"
+import img23 from "../../assets/project_img/p2.png"
+import img24 from "../../assets/project_img/p3.png"
+import img25 from "../../assets/project_img/p4.png"
+import img26 from "../../assets/project_img/phero.jpeg"
+import img27 from "../../assets/project_img/prakriti.png"
+import img28 from "../../assets/project_img/v.png"
+import img29 from "../../assets/project_img/v1.png"
+import img30 from "../../assets/project_img/v2.png"
+import img31 from "../../assets/project_img/v3.png"
+import img32 from "../../assets/project_img/v4.png"
+import img33 from "../../assets/aboutus_img/aboutus.jpeg"
+import img34 from "../../assets/aboutus_img/knowmore.jpeg"
+import img35 from "../../assets/contact_img/contactus.png"
+import img36 from "../../assets/contact_img/whoweare_img.jpg"
+import img37 from "../../assets/volunteer/herov.jpeg"
+import img38 from "../../assets/volunteer/joinus.jpeg"
+import img39 from "../../assets/project_img/i1.jpg"
+import img40 from "../../assets/project_img/i2.jpg"
+import img41 from "../../assets/project_img/i3.jpg"
+import img42 from "../../assets/project_img/i4.jpg"
+import img43 from "../../assets/project_img/i5.jpg"
+import img44 from "../../assets/project_img/i6.jpeg"
+import img45 from "../../assets/project_img/i7.jpg"
+import img46 from "../../assets/project_img/i8.jpg"
+import img47 from "../../assets/project_img/i9.jpg"
+import img48 from "../../assets/project_img/i10.jpeg"
+import img49 from "../../assets/project_img/i11.jpg"
+import img50 from "../../assets/project_img/i12.jpg"
+import img51 from "../../assets/project_img/i13.jpg"
+import img52 from "../../assets/project_img/i14.jpg"
+import img53 from "../../assets/project_img/i15.jpg"
 
 const GalleryGrid = () => {
 
@@ -41,267 +94,267 @@ const GalleryGrid = () => {
     {
       id: 1,
       category: "Seva",
-      image: "../../src/assets/project_img/s1.png",
+      image: img1,
     },
     {
       id: 2,
       category: "Seva",
-      image: "../../src/assets/project_img/s2.png",
+      image: img2,
     },
     {
       id: 3,
       category: "Seva",
-      image: "../../src/assets/project_img/s3.png",
+      image: img3,
     },
     {
       id: 4,
       category: "Seva",
-      image: "../../src/assets/project_img/s4.png",
+      image: img4,
     },
     {
       id: 5,
       category: "Seva",
-      image: "../../src/assets/project_img/seva.png",
+      image: img5,
     },
     {
       id: 6,
       category: "Seva",
-      image: "../../src/assets/project_img/seva2.png",
+      image: img6,
     },
     {
       id: 7,
       category: "Bachpanshala",
-      image: "../../src/assets/project_img/b.png",
+      image: img7,
     },
     {
       id: 8,
       category: "Bachpanshala",
-      image: "../../src/assets/project_img/b1.png",
+      image: img8,
     },
     {
       id: 9,
       category: "Bachpanshala",
-      image: "../../src/assets/project_img/b2.png",
+      image: img9,
     },
     {
       id: 10,
       category: "Bachpanshala",
-      image: "../../src/assets/project_img/b3.png",
+      image: img10,
     },
     {
       id: 11,
       category: "Bachpanshala",
-      image: "../../src/assets/project_img/b4.png",
+      image: img11,
     },
     {
       id: 12,
       category: "Jeev",
-      image: "../../src/assets/project_img/j1.png",
+      image: img12,
     },
     {
       id: 13,
       category: "Jeev",
-      image: "../../src/assets/project_img/jeeva.png",
+      image: img13,
     },
     {
       id: 14,
       category: "Jeev",
-      image: "../../src/assets/project_img/j2.png",
+      image: img14,
     },
     {
       id: 15,
       category: "Jeev",
-      image: "../../src/assets/project_img/j3.png",
+      image: img15,
     },
     {
       id: 16,
       category: "Jeev",
-      image: "../../src/assets/project_img/j4.png",
+      image: img16,
     },
     {
       id: 17,
       category: "Udaan",
-      image: "../../src/assets/project_img/u1.png",
+      image: img17,
     },
     {
       id: 18,
       category: "Udaan",
-      image: "../../src/assets/project_img/u2.png",
+      image: img18,
     },
     {
       id: 19,
       category: "Udaan",
-      image: "../../src/assets/project_img/u3.png",
+      image: img19,
     },
     {
       id: 20,
       category: "Udaan",
-      image: "../../src/assets/project_img/u4.png",
+      image: img20,
     },
     {
       id: 21,
       category: "Udaan",
-      image: "../../src/assets/project_img/udaan.png",
+      image: img21,
     },
     {
       id: 22,
       category: "Prakriti",
-      image: "../../src/assets/project_img/p1.png",
+      image: img22,
     },
     {
       id: 23,
       category: "Prakriti",
-      image: "../../src/assets/project_img/p2.png",
+      image: img23,
     },
     {
       id: 24,
       category: "Prakriti",
-      image: "../../src/assets/project_img/p3.png",
+      image: img24,
     },
     {
       id: 25,
       category: "Prakriti",
-      image: "../../src/assets/project_img/p4.png",
+      image: img25,
     },
     {
       id: 26,
       category: "Prakriti",
-      image: "../../src/assets/project_img/phero.jpeg",
+      image: img26,
     },
     {
       id: 27,
       category: "Prakriti",
-      image: "../../src/assets/project_img/prakriti.png",
+      image: img27,
     },
     {
       id: 28,
       category: "Vikas",
-      image: "../../src/assets/project_img/v.png",
+      image: img28,
     },
     {
       id: 29,
       category: "Vikas",
-      image: "../../src/assets/project_img/v1.png",
+      image: img29,
     },
     {
       id: 30,
       category: "Vikas",
-      image: "../../src/assets/project_img/v2.png",
+      image: img30,
     },
     {
       id: 31,
       category: "Vikas",
-      image: "../../src/assets/project_img/v3.png",
+      image: img31,
     },
     {
       id: 32,
       category: "Vikas",
-      image: "../../src/assets/project_img/v4.png",
+      image: img32,
     },
     {
       id: 33,
       category: "Events",
-      image: "../../src/assets/aboutus_img/aboutus.jpeg",
+      image: img33,
     },
     {
       id: 34,
       category: "Events",
-      image: "../../src/assets/aboutus_img/knowmore.jpeg",
+      image: img34,
     },
     {
       id: 35,
       category: "Events",
-      image: "../../src/assets/contact_img/contactus.png",
+      image: img35,
     },
     {
       id: 36,
       category: "Events",
-      image: "../../src/assets/contact_img/whoweare_img.jpg",
+      image: img36,
     },
     {
       id: 37,
       category: "Events",
-      image: "../../src/assets/volunteer/herov.jpeg",
+      image: img37,
     },
     {
       id: 38,
       category: "Events",
-      image: "../../src/assets/volunteer/joinus.jpeg",
+      image: img38,
     },
     {
       id: 39,
       category: "Events",
-      image: "../../src/assets/project_img/i1.jpg",
+      image: img39,
     },
     {
       id: 40,
       category: "Events",
-      image: "../../src/assets/project_img/i2.jpg",
+      image: img40,
     },
     {
       id: 41,
       category: "Events",
-      image: "../../src/assets/project_img/i3.jpg",
+      image: img41,
     },
     {
       id: 42,
       category: "Events",
-      image: "../../src/assets/project_img/i4.jpg",
+      image: img42,
     },
     {
       id: 43,
       category: "Events",
-      image: "../../src/assets/project_img/i5.jpg",
+      image: img43,
     },
     {
       id: 44,
       category: "Events",
-      image: "../../src/assets/project_img/i6.jpeg",
+      image: img44,
     },
     {
       id: 45,
       category: "Events",
-      image: "../../src/assets/project_img/i7.jpg",
+      image: img45,
     },
     {
       id: 46,
       category: "Events",
-      image: "../../src/assets/project_img/i8.jpg",
+      image: img46,
     },
     {
       id: 47,
       category: "Events",
-      image: "../../src/assets/project_img/i9.jpg",
+      image: img47,
     },
     {
       id: 48,
       category: "Events",
-      image: "../../src/assets/project_img/i10.jpeg",
+      image: img48,
     },
     {
       id: 49,
       category: "Events",
-      image: "../../src/assets/project_img/i11.jpg",
+      image: img49,
     },
     {
       id: 50,
       category: "Events",
-      image: "../../src/assets/project_img/i12.jpg",
+      image: img50,
     },
     {
       id: 51,
       category: "Events",
-      image: "../../src/assets/project_img/i13.jpg",
+      image: img51,
     },
     {
       id: 52,
       category: "Events",
-      image: "../../src/assets/project_img/i14.jpg",
+      image: img52,
     },
     {
       id: 53,
       category: "Events",
-      image: "../../src/assets/project_img/i15.jpg",
+      image: img53,
     },
   ];
 
