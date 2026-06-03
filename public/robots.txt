@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://in-amigos-foundation-awareness-app.vercel.app/sitemap.xml
