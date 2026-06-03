@@ -1,6 +1,12 @@
 import React from 'react';
 import shareProject from "../../utils/shareProject";
 import { Link, useLocation } from "react-router-dom";
+import img1 from "../../assets/project_img/jeeva.png";
+import img2 from "../../assets/project_img/j1.png";
+import img3 from "../../assets/project_img/j2.png";
+import img4 from "../../assets/project_img/j3.png";
+import img5 from "../../assets/project_img/j4.png";
+
 
 export default function SevaComponent({ isOpen, onClose, sevaCover }) {
   const location = useLocation();
@@ -22,11 +28,11 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
           {/* Left Side Main Hero Feature Image Media Wrapper (Columns 5) */}
           <div className="lg:col-span-5 w-full aspect-4/3 lg:h-85 rounded-2xl overflow-hidden bg-gray-100 border border-gray-100">
             <img 
-              src="../../src/assets/project_img/jeeva.png" 
+              src={img1} 
               alt="jeev image" 
               className="w-full h-full object-cover object-center"
               onError={(e) => {
-                e.target.src = "https://images.unsplash.com/photo-1504805572947-34fac43a4e68?q=80&w=600";
+                e.target.src = img1; // Fallback image if the original fails to load
               }}
             />
           </div>
@@ -167,10 +173,10 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
             {/* Asymmetric Gallery Thumbnails Container */}
             <div className="grid grid-cols-4 gap-2 w-full mt-1">
               {[
-                "../../src/assets/project_img/j1.png",
-                "../../src/assets/project_img/j2.png",
-                "../../src/assets/project_img/j3.png",
-                "../../src/assets/project_img/j4.png"
+                img2,
+                img3,
+                img4,
+                img5
               ].map((imgUrl, i) => (
                 <div key={i} className="aspect-square w-full rounded-xl overflow-hidden bg-gray-100 border border-gray-200/40 shadow-xs">
                   <img 

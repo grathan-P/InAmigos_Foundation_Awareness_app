@@ -1,5 +1,10 @@
 import React from 'react';
 import img1 from "../../assets/project_img/b.png";
+import img2 from "../../assets/project_img/b1.png";
+import img3 from "../../assets/project_img/b2.png";
+import img4 from "../../assets/project_img/b3.png";
+import img5 from "../../assets/project_img/b4.png";
+
 import { Link, useLocation } from "react-router-dom";
 import shareProject from "../../utils/shareProject";
 
@@ -167,10 +172,10 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
             {/* Asymmetric Gallery Thumbnails Container */}
             <div className="grid grid-cols-4 gap-2 w-full mt-1">
               {[
-                "../../src/assets/project_img/b4.png",
-                "../../src/assets/project_img/b1.png",
-                "../../src/assets/project_img/b2.png",
-                "../../src/assets/project_img/b3.png"
+                img2,
+                img3,
+                img4,
+                "../../src/assets/project_img/b4.png"
               ].map((imgUrl, i) => (
                 <div key={i} className="aspect-square w-full rounded-xl overflow-hidden bg-gray-100 border border-gray-200/40 shadow-xs">
                   <img 

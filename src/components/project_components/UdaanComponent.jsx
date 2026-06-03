@@ -1,6 +1,11 @@
 import React from 'react';
 import shareProject from "../../utils/shareProject";
 import { Link, useLocation } from "react-router-dom";
+import img1 from "../../assets/project_img/seva2.png";
+import img2 from "../../assets/project_img/s1.png";
+import img3 from "../../assets/project_img/s2.png";
+import img4 from "../../assets/project_img/s3.png";
+import img5 from "../../assets/project_img/s4.png";
 
 export default function SevaComponent({ isOpen, onClose, sevaCover }) {
   const location = useLocation();
@@ -22,7 +27,7 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
           {/* Left Side Main Hero Feature Image Media Wrapper (Columns 5) */}
           <div className="lg:col-span-5 w-full aspect-4/3 lg:h-85 rounded-2xl overflow-hidden bg-gray-100 border border-gray-100">
             <img 
-              src="../../src/assets/project_img/udaan.png" 
+              src={img1} 
               alt="Udaan Impact Initiative" 
               className="w-full h-full object-cover object-center"
               onError={(e) => {
@@ -166,10 +171,10 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
             {/* Asymmetric Gallery Thumbnails Container */}
             <div className="grid grid-cols-4 gap-2 w-full mt-1">
               {[
-                "../../src/assets/project_img/u1.png",
-                "../../src/assets/project_img/u2.png",
-                "../../src/assets/project_img/u3.png",
-                "../../src/assets/project_img/u4.png"
+                img1,
+                img2,
+                img3,
+                img4
               ].map((imgUrl, i) => (
                 <div key={i} className="aspect-square w-full rounded-xl overflow-hidden bg-gray-100 border border-gray-200/40 shadow-xs">
                   <img 
