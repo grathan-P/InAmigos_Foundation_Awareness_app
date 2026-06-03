@@ -1,16 +1,26 @@
-# React + Vite
+# InAmigos Foundation Awareness App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the InAmigos Foundation Awareness App, built with React and Vite to present the foundation's work, projects, volunteer opportunities, gallery, and contact information in a simple and accessible experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [amigos_foundation](https://in-amigos-foundation-awareness-app.vercel.app/)
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Informational pages for the foundation, projects, gallery, contact, and volunteer signup.
+- Built as a modern single-page React application.
+- Deployed and accessible online through Vercel.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
