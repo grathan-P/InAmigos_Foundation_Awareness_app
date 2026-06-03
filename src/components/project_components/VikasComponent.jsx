@@ -1,11 +1,11 @@
 import React from 'react';
 import shareProject from "../../utils/shareProject";
 import { Link, useLocation } from "react-router-dom";
-import img1 from "../../assets/project_img/udaan.png";
-import img2 from "../../assets/project_img/u1.png";
-import img3 from "../../assets/project_img/u2.png";
-import img4 from "../../assets/project_img/u3.png";
-import img5 from "../../assets/project_img/u4.png";
+import img1 from "../../assets/project_img/v.png";
+import img2 from "../../assets/project_img/v1.png";
+import img3 from "../../assets/project_img/v2.png";
+import img4 from "../../assets/project_img/v3.png";
+import img5 from "../../assets/project_img/v4.png";
 
 export default function SevaComponent({ isOpen, onClose, sevaCover }) {
   const location = useLocation();
