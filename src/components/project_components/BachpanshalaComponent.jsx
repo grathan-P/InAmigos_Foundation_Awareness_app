@@ -175,7 +175,7 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
                 img2,
                 img3,
                 img4,
-                "../../src/assets/project_img/b4.png"
+                img5
               ].map((imgUrl, i) => (
                 <div key={i} className="aspect-square w-full rounded-xl overflow-hidden bg-gray-100 border border-gray-200/40 shadow-xs">
                   <img 
