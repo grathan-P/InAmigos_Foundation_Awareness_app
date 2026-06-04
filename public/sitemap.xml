@@ -6,4 +6,24 @@
     <loc>https://in-amigos-foundation-awareness-app.vercel.app/</loc>
   </url>
 
+  <url>
+    <loc>https://in-amigos-foundation-awareness-app.vercel.app/#/about</loc>
+  </url>
+
+  <url>
+    <loc>https://in-amigos-foundation-awareness-app.vercel.app/#/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://in-amigos-foundation-awareness-app.vercel.app/#/gallery</loc>
+  </url>
+
+  <url>
+    <loc>https://in-amigos-foundation-awareness-app.vercel.app/#/volunteer</loc>
+  </url>
+
+  <url>
+    <loc>https://in-amigos-foundation-awareness-app.vercel.app/#/contact</loc>
+  </url>
+
 </urlset>
