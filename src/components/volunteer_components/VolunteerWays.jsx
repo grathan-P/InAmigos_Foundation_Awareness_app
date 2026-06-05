@@ -125,7 +125,7 @@ export default function VolunteerWays() {
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         
         {/* ================= TITLE ACCENT HEADER ================= */}
-        <div className="text-center mb-10 -mt-4">
+        <div className="text-center mb-10 -mt-2">
           <h2 className="text-3xl font-black text-gray-900 tracking-tight">
             Ways to <span className="text-red-600">Volunteer</span>
           </h2>
@@ -162,12 +162,12 @@ export default function VolunteerWays() {
                 <div className="bg-red-500 rounded-2xl border border-gray-300 shadow-2xl shadow-gray-200/60 p-6 lg:py-8 lg:px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-y-8 gap-x-2 items-center text-center md:divide-x divide-gray-100">
                   
                   {/* Stat 1: Years of Service */}
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2  border-white">
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2  border-white">
                     <div className="text-white shrink-0 p-2  rounded-xl">
                       <FaUsers size={28} className="fill-current" />
                     </div>
                     <div className="flex flex-col items-center sm:items-start text-center sm:text-left ">
-                      <span className="text-2xl lg:text-3xl font-black text-white leading-none flex items-center">
+                      <span className="text-xl lg:text-2xl font-black text-white leading-none flex items-center">
                         <AnimatedCounter target={5} trigger={isAnimateTriggered} />+
                       </span>
                       <span className="text-[11px] font-bold text-white uppercase tracking-wide mt-1.5 leading-tight">
@@ -177,12 +177,12 @@ export default function VolunteerWays() {
                   </div>
         
                   {/* Stat 2: Interns Onboarded */}
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2 border-white">
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2 border-white">
           <div className="text-white shrink-0 p-2  rounded-xl">
             <FaGraduationCap size={28} className="fill-current" />
           </div>
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-            <span className="text-2xl lg:text-3xl font-black text-white leading-none flex items-center">
+            <span className="text-xl lg:text-2xl font-black text-white leading-none flex items-center">
               {/* Target changed to 100,000 to count all the way up */}
               <AnimatedCounter target={100000} trigger={isAnimateTriggered} isLakh={true} />+
             </span>
@@ -193,12 +193,12 @@ export default function VolunteerWays() {
         </div>
         
                   {/* Stat 3: Top 5 NGO */}
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 col-span-1 sm:col-span-2 md:col-span-1 border-r-2  borderwhite pr-8">
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 col-span-1 sm:col-span-2 md:col-span-1 md:border-r-2  borderwhite pr-8">
                     <div className="text-white shrink-0 p-2  rounded-xl">
                       <FaRibbon size={28} className="fill-current" />
                     </div>
                     <div className="flex flex-col items-center sm:items-start text-center sm:text-left ">
-                      <span className="text-2xl lg:text-3xl font-black text-white leading-none flex items-center">
+                      <span className="text-xl lg:text-2xl font-black text-white leading-none flex items-center">
                         Top&nbsp;<AnimatedCounter target={5} duration={1000} trigger={isAnimateTriggered} />&nbsp;NGO
                       </span>
                       <span className="text-[10px] font-bold text-white uppercase tracking-wide mt-1.5 leading-tight">
@@ -208,12 +208,12 @@ export default function VolunteerWays() {
                   </div>
         
                   {/* Stat 4: Interns Permanently Onboarded */}
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2  border-white pl-2 ">
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2  border-white pl-2 ">
                     <div className="text-white shrink-0 p-2 rounded-xl ">
                       <FaUsers size={28} className="fill-current" />
                     </div>
                     <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-                      <span className="text-2xl lg:text-3xl font-black text-white leading-none flex items-center">
+                      <span className="text-xl lg:text-2xl font-black text-white leading-none flex items-center">
                         <AnimatedCounter target={250} trigger={isAnimateTriggered} />+
                       </span>
                       <span className="text-[11px] font-bold text-white uppercase tracking-wide mt-1.5 leading-tight">
@@ -228,7 +228,7 @@ export default function VolunteerWays() {
                       <FaHandsHelping size={28} className="fill-current" />
                     </div>
                     <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-                      <span className="text-2xl lg:text-3xl font-black text-white leading-none flex items-center">
+                      <span className="text-xl  font-black text-white leading-none flex items-center">
                         <AnimatedCounter target={6} trigger={isAnimateTriggered} />
                       </span>
                       <span className="text-[11px] font-bold text-white uppercase tracking-wide mt-1.5 leading-tight">

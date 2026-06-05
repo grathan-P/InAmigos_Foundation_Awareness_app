@@ -372,7 +372,7 @@ const GalleryGrid = () => {
     <section className="w-full bg-white py-16 px-4 md:px-10">
 
       {/* CATEGORY BUTTONS */}
-      <div className="flex flex-wrap justify-center gap-4 mb-10">
+      <div className="flex flex-wrap justify-center gap-4 mb-10 mt-35 md:mt-5 lg:mt-10 ">
 
         {categories.map((category) => (
           <button

@@ -27,7 +27,7 @@ export default function HeroV() {
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 items-center px-6 sm:px-8 lg:px-12 py-16 lg:py-0 z-10">
 
           {/* ================= LEFT PANEL ================= */}
-          <div className="lg:col-span-6 flex flex-col justify-center pr-0 lg:pr-12">
+          <div className="lg:col-span-6 flex flex-col justify-center pr-0 lg:pr-12 mt-10">
 
             {/* LABEL */}
             <span className="text-red-600 font-extrabold text-xs tracking-[0.25em] uppercase mb-3">

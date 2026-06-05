@@ -48,7 +48,7 @@ export default function ProjectHero() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 items-center px-6 sm:px-8 lg:px-12 py-12 lg:py-0 z-10">
         
         {/* LEFT COLUMN: Editorial Text Framework */}
-        <div className="lg:col-span-6 flex flex-col justify-center pr-0 lg:pr-8 mb-8 lg:mb-0">
+        <div className="lg:col-span-6 flex flex-col justify-center pr-0 mt-8 lg:pr-8 mb-8 lg:mb-0">
           <span className="text-red-600 font-extrabold text-xs tracking-wider uppercase mb-2">
             OUR PROJECTS
           </span>

@@ -62,7 +62,7 @@ const AboutUs = () => {
         
         {/* Left Side: Editorial Content */}
         <div className="lg:col-span-5 flex flex-col pr-0 lg:pr-4">
-          <span className="text-red-600 font-bold text-xs tracking-wider uppercase mb-2">
+          <span className="text-red-600 font-bold text-xs tracking-wider uppercase mb-2 mt-8">
             ABOUT US
           </span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 tracking-tight mb-4 leading-[1.1]">
@@ -78,7 +78,7 @@ const AboutUs = () => {
         </div>
 
         {/* Right Side: Exact Angled / Slanted Masked Image Background Container */}
-        <div className="lg:col-span-7 h-72 sm:h-100 lg:h-115 w-full relative mt-6 lg:mt-0">
+        <div className="lg:col-span-7 h-72 sm:h-100 lg:h-115 w-full relative mt-0 md:mt-6 lg:mt-0">
           <div 
             className="w-full h-full object-cover shadow-lg"
             style={{
@@ -99,7 +99,7 @@ const AboutUs = () => {
         <div className="bg-white rounded-2xl border border-gray-300 shadow-2xl shadow-gray-200/60 p-6 lg:py-8 lg:px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-y-8 gap-x-2 items-center text-center md:divide-x divide-gray-100">
           
           {/* Stat 1: Years of Service */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2  border-gray-400">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2  border-gray-400">
             <div className="text-red-600 shrink-0 p-2 bg-gray- rounded-xl">
               <FaUsers size={28} className="fill-current" />
             </div>
@@ -114,7 +114,7 @@ const AboutUs = () => {
           </div>
 
           {/* Stat 2: Interns Onboarded */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2 border-gray-400">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2 border-gray-400">
   <div className="text-red-600 shrink-0 p-2 bg-gray-50 rounded-xl">
     <FaGraduationCap size={28} className="fill-current" />
   </div>
@@ -130,7 +130,7 @@ const AboutUs = () => {
 </div>
 
           {/* Stat 3: Top 5 NGO */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 col-span-1 sm:col-span-2 md:col-span-1 border-r-2  border-gray-400 pr-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 col-span-1 sm:col-span-2 md:col-span-1 md:border-r-2  border-gray-400 pr-8">
             <div className="text-red-600 shrink-0 p-2 bg-gray-50 rounded-xl">
               <FaRibbon size={28} className="fill-current" />
             </div>
@@ -145,7 +145,7 @@ const AboutUs = () => {
           </div>
 
           {/* Stat 4: Interns Permanently Onboarded */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 border-r-2  border-gray-400 pl-2 ">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 md:border-r-2  border-gray-400 pl-2 ">
             <div className="text-red-600 shrink-0 p-2 bg-gray-50 rounded-xl ">
               <FaUsers size={28} className="fill-current" />
             </div>

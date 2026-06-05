@@ -93,7 +93,7 @@ const HeroSection = () => {
 
       {/* Floating Statistics Panel */}
       {/* <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transform translate-y-1/2 mt-20 sm:mt-24 md:mt-28 lg:mt-24"> */}
-      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8 transform translate-y-1/2 mt-20 sm:mt-24 md:mt-28 lg:mt-24 ">
+      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-8 transform translate-y-1/2 mt-20 sm:mt-24 md:mt-28 lg:mt-16 ">
         <div className="bg-white rounded-2xl shadow-xl border border-gray-100 py-6 px-4 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4 divide-gray-200 lg:divide-x">
           {stats.map((stat, idx) => (
             <div 
@@ -107,7 +107,7 @@ const HeroSection = () => {
 
               {/* Counter Text Data */}
               <div className="flex flex-col">
-                <span className="text-2xl sm:text-3xl font-extrabold text-red-600 tracking-tight flex items-center">
+                <span className="text-[15px] md:text-3xl font-extrabold text-red-600 tracking-tight flex items-center">
                   <AnimatedCounter target={stat.target} />
                   <span>+</span>
                 </span>

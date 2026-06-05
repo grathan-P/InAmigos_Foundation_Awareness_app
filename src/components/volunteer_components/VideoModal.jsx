@@ -89,201 +89,184 @@ export default function VideoModal({
   };
 
   return (
+  <div
+    className="fixed inset-0 z-999 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4"
+    onClick={(e) => {
+      if (e.target === e.currentTarget) onClose();
+    }}
+  >
+    <div className="w-full max-w-6xl h-[92vh] bg-white rounded-4xl overflow-hidden shadow-2xl flex flex-col">
 
-    <div
-      className="fixed inset-0 z-999 bg-black/80 backdrop-blur-md flex items-center justify-center px-4 py-6"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) {
-          onClose();
-        }
-      }}
-    >
+      {/* HEADER */}
+      <div className="border-b border-gray-100 px-6 md:px-10 py-6 flex items-start justify-between">
 
-      {/* ================= MAIN MODAL ================= */}
-      <div className="relative w-full max-w-7xl max-h-[94vh] overflow-hidden rounded-4xl bg-white shadow-[0_20px_80px_rgba(0,0,0,0.35)] flex flex-col">
-
-        {/* ================= HEADER ================= */}
-        <div className="relative px-6 md:px-10 py-7 border-b border-gray-200 bg-white/90 backdrop-blur-xl">
-
-          {/* CLOSE BUTTON */}
-          <button
-            onClick={onClose}
-            className="absolute right-6 top-6 w-12 h-12 rounded-full bg-gray-100 hover:bg-red-600 hover:text-white transition-all duration-300 flex items-center justify-center"
-          >
-            <FaTimes className="text-lg" />
-          </button>
-
-          {/* LABEL */}
-          <span className="text-red-600 font-black text-xs tracking-[0.25em] uppercase">
-            InAmigos Media
+        <div>
+          <span className="text-red-600 uppercase tracking-[0.2em] text-[11px] font-bold">
+            Impact Stories
           </span>
 
-          {/* TITLE */}
-          <h2 className="text-3xl md:text-5xl font-black text-gray-900 mt-3 leading-tight">
+          <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mt-2">
             Stories That Create
             <span className="text-red-600"> Impact</span>
           </h2>
-
-          {/* DESCRIPTION */}
-          <p className="text-gray-600 mt-4 max-w-3xl leading-relaxed text-sm md:text-base">
-            Explore real stories, volunteer journeys, food drives,
-            educational support, environmental campaigns,
-            and social impact created by InAmigos Foundation.
-          </p>
-
         </div>
 
-        {/* ================= SCROLLABLE CONTENT ================= */}
-        <div className="overflow-y-auto px-6 md:px-10 py-8">
+        <button
+          onClick={onClose}
+          className="w-11 h-11 rounded-full bg-gray-100 hover:bg-red-600 hover:text-white transition flex items-center justify-center"
+        >
+          <FaTimes />
+        </button>
 
-          {/* ================= FEATURED VIDEO ================= */}
-          <div className="mb-12">
+      </div>
 
-            <div className="relative overflow-hidden rounded-4xl border border-gray-200 shadow-xl">
+      {/* CONTENT */}
+      <div className="flex-1 overflow-y-auto px-6 md:px-10 py-8">
 
-              <div className="aspect-video">
+        {/* FEATURED VIDEO */}
+        <section className="mb-12">
 
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/ApFogc_9-zo"
-                  title="
-Top 5 #NGOs of the Year 2025, an award presented by the Hon’ble Mayor of Delhi at Hyatt Centric."
-                  allowFullScreen
-                />
+          <div className="overflow-hidden rounded-3xl border border-gray-200">
 
-              </div>
+            <div className="aspect-video">
 
-            </div>
-
-            {/* FEATURED CONTENT */}
-            <div className="mt-6">
-
-              <div className="flex items-center gap-3 mb-3">
-
-                <div className="bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center">
-                  <FaPlay className="text-sm" />
-                </div>
-
-                <span className="text-red-600 text-xs font-black tracking-widest uppercase">
-                  Featured Story
-                </span>
-
-              </div>
-
-              <h3 className="text-2xl md:text-3xl font-black text-gray-900">
-                Building Smiles Through Collective Action
-              </h3>
-
-              <p className="text-gray-600 mt-4 leading-relaxed max-w-4xl">
-                Every volunteer, every campaign, and every act of kindness
-                contributes toward building a more compassionate and sustainable future.
-              </p>
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/ApFogc_9-zo"
+                title="Featured Story"
+                allowFullScreen
+              />
 
             </div>
 
           </div>
 
-          {/* ================= VIDEO GRID ================= */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <div className="mt-6">
 
-            {videos.map((video) => (
+            <div className="flex items-center gap-3 mb-2">
 
-              <div
-                key={video.id}
-                className="group bg-white rounded-[1.75rem] overflow-hidden border border-gray-200 hover:border-red-300 hover:shadow-2xl transition-all duration-500"
-              >
-
-                {/* VIDEO */}
-                <div className="aspect-video overflow-hidden bg-black">
-
-                  <iframe
-                    className="w-full h-full group-hover:scale-[1.02] transition-all duration-500"
-                    src={video.embedUrl}
-                    title={video.title}
-                    allowFullScreen
-                  />
-
-                </div>
-
-                {/* CONTENT */}
-                <div className="p-5">
-
-                  {/* PLATFORM */}
-                  <div className="flex items-center gap-2 mb-3">
-
-                    {video.platform === "YouTube" ? (
-
-                      <>
-                        <FaYoutube className="text-red-600 text-xl" />
-
-                        <span className="text-red-600 text-xs font-black uppercase tracking-widest">
-                          YouTube
-                        </span>
-                      </>
-
-                    ) : (
-
-                      <>
-                        <FaInstagram className="text-pink-500 text-xl" />
-
-                        <span className="text-pink-500 text-xs font-black uppercase tracking-widest">
-                          Instagram Reel
-                        </span>
-                      </>
-
-                    )}
-
-                  </div>
-
-                  {/* TITLE */}
-                  <h3 className="text-xl font-black text-gray-900 leading-snug group-hover:text-red-600 transition-all duration-300">
-                    {video.title}
-                  </h3>
-
-                  {/* DESCRIPTION */}
-                  <p className="text-gray-500 text-sm leading-relaxed mt-3">
-                    {video.description}
-                  </p>
-
-                </div>
-
+              <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center text-white">
+                <FaPlay size={10} />
               </div>
 
-            ))}
+              <span className="uppercase tracking-widest text-[10px] font-bold text-red-600">
+                Featured Story
+              </span>
 
-          </div>
+            </div>
 
-        </div>
+            <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+              Building Smiles Through Collective Action
+            </h3>
 
-        {/* ================= BOTTOM CTA ================= */}
-        <div className="border-t border-gray-200 bg-white px-6 md:px-10 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
-
-          {/* LEFT */}
-          <div>
-
-            <h4 className="text-xl font-black text-gray-900">
-              Want To Become Part Of The Change?
-            </h4>
-
-            <p className="text-gray-600 text-sm mt-1">
-              Join our volunteer network and help create meaningful social impact.
+            <p className="text-sm text-gray-600 leading-7 mt-3 max-w-3xl">
+              Every volunteer, every campaign, and every act of kindness
+              contributes toward building a more compassionate and sustainable future.
             </p>
 
           </div>
 
-          {/* BUTTON */}
-          <button
-            onClick={handleJoinUs}
-            className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-2xl font-bold shadow-lg hover:shadow-red-200 transition-all duration-300"
-          >
-            Join Us Now
-          </button>
+        </section>
 
+        {/* STORIES */}
+        <section>
+
+          <h3 className="text-xl font-semibold text-gray-900 mb-6">
+            Recent Stories
+          </h3>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+            {videos.map((video) => {
+
+              const shortDescription =
+                video.description.length > 120
+                  ? video.description.slice(0, 120) + "..."
+                  : video.description;
+
+              return (
+
+                <div
+                  key={video.id}
+                  className="border border-gray-200 rounded-3xl overflow-hidden hover:shadow-lg transition duration-300 bg-white"
+                >
+
+                  <div className="aspect-video bg-black">
+
+                    <iframe
+                      className="w-full h-full"
+                      src={video.embedUrl}
+                      title={video.title}
+                      allowFullScreen
+                    />
+
+                  </div>
+
+                  <div className="p-5">
+
+                    <div className="flex items-center gap-2 mb-3">
+
+                      {video.platform === "YouTube" ? (
+                        <>
+                          <FaYoutube className="text-red-600" />
+                          <span className="text-[10px] uppercase tracking-widest font-bold text-red-600">
+                            YouTube
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <FaInstagram className="text-pink-500" />
+                          <span className="text-[10px] uppercase tracking-widest font-bold text-pink-500">
+                            Instagram Reel
+                          </span>
+                        </>
+                      )}
+
+                    </div>
+
+                    <h4 className="text-base font-semibold text-gray-900 leading-snug">
+                      {video.title}
+                    </h4>
+
+                    <p className="text-sm text-gray-600 mt-3 leading-6">
+                      {shortDescription}
+                    </p>
+
+                  </div>
+
+                </div>
+
+              );
+
+            })}
+
+          </div>
+
+        </section>
+
+      </div>
+
+      {/* CTA */}
+      <div className="border-t border-gray-100 px-6 md:px-10 py-5 flex flex-col md:flex-row gap-4 items-center justify-between">
+
+        <div>
+
+          <p className="text-sm text-gray-600">
+            Join our volunteer community and help create meaningful impact.
+          </p>
         </div>
+
+        <button
+          onClick={handleJoinUs}
+          className="bg-red-600 hover:bg-red-700 text-white px-3 py-3 rounded-xl text-sm transition"
+        >
+          Join Us Now
+        </button>
 
       </div>
 
     </div>
+  </div>
 
   );
 }

@@ -52,7 +52,7 @@ const WhoWeAre = () => {
         <div className="grid  grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Text Content */}
-          <div className="lg:col-span-6 flex flex-col justify-center">
+          <div className="lg:col-span-6 flex flex-col justify-center mt-12">
             <span className="text-red-600 text-sm font-bold uppercase tracking-wider mb-2">
               About Us
             </span>
@@ -96,7 +96,7 @@ const WhoWeAre = () => {
           </div>
 
           {/* Right Column: Image & Floating Badge */}
-          <div className="lg:col-span-6 relative">
+          <div className="lg:col-span-6 relative lg:mt-10">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <img 
                 src={Img} 

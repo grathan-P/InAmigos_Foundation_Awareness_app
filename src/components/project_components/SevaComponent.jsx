@@ -18,8 +18,8 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/40 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 font-sans">
-      <div className="relative w-full max-w-255 bg-white rounded-[28px] shadow-2xl overflow-hidden p-6 sm:p-8 flex flex-col gap-6 animate-in fade-in zoom-in-95 duration-200">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/40 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 font-sans ">
+      <div className="relative w-full max-w-255 bg-white rounded-[28px] shadow-2xl overflow-hidden p-6 sm:p-8 flex flex-col gap-6 animate-in fade-in zoom-in-95 duration-200 mt-180 md:mt-15 lg:mt-50">
         
         {/* Top Row Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -42,7 +42,7 @@ export default function SevaComponent({ isOpen, onClose, sevaCover }) {
             {/* Absolute Floating Close Cross Action Trigger */}
             <button 
               onClick={onClose}
-              className="absolute -top-2 -right-2 w-10 h-10 bg-gray-50 border border-gray-100 hover:bg-gray-100 rounded-full flex items-center justify-center text-gray-800 transition-colors duration-200 cursor-pointer shadow-xs z-30"
+              className="absolute -top-2 -right-2 w-10 h-10 bg-gray-50 border border-gray-100 hover:bg-gray-100 rounded-full flex items-center justify-center text-gray-800 transition-colors duration-200 cursor-pointer shadow-xs z-30 "
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
