@@ -33,3 +33,13 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## SEO & Google Search Console
+
+- **SEO integrated:** The site includes basic SEO optimizations such as descriptive page titles, meta description tags, Open Graph meta tags for rich link previews, and canonical links where appropriate.
+- **Google Search Console:** The site is verified with Google Search Console using the HTML verification file `public/google739f0a4902fb8078.html` (deployed at `/google739f0a4902fb8078.html`). Add the site to GSC and confirm verification there.
+- **Sitemap:** A `sitemap.xml` is available at `/sitemap.xml` (see `public/sitemap.xml`). Submit this URL in Google Search Console to help Google discover and index pages.
+- **robots.txt:** A `robots.txt` file is included at `/robots.txt` (see `public/robots.txt`) to guide crawlers.
+- **Structured data:** Basic JSON-LD structured data (Organization, WebSite, and/or WebPage) is included on relevant pages to improve search result appearance.
+
+If you make changes to pages or routes, remember to update/regenerate the sitemap (if applicable) and re-submit it to Google Search Console for faster re-indexing.
