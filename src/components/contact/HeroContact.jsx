@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import contactus from "../../assets/contact_img/whoweare_img.jpg";
 
 export default function ContactUs() {
+  const [message, setMessage] = useState("");
+  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -14,10 +17,13 @@ export default function ContactUs() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Message Details Submitted:', formData);
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  setMessage(
+    "Thank you for reaching out! The contact service is currently under maintenance. Please contact InAmigos Foundation through their official website or social media channels for immediate assistance."
+  );
+};
 
   const contactDetails = [
     {
@@ -191,6 +197,11 @@ export default function ContactUs() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9-7-9-7v14z" />
               </svg>
             </button>
+            {message && (
+  <div className="mt-3 bg-amber-50 border border-amber-200 text-amber-700 px-4 py-3 rounded-xl text-sm font-medium">
+    {message}
+  </div>
+)}
           </form>
         </div>
 
