@@ -9,7 +9,7 @@ import iniyaImg from "../../assets/aboutus_img/core_team/Iniya_Radhakrishnan.jpe
 import khushImg from "../../assets/aboutus_img/core_team/Khush_Gupta.jpeg";
 import akashImg from "../../assets/aboutus_img/core_team/Akash.jpeg";
 import anushaImg from "../../assets/aboutus_img/core_team/Anusha.jpeg";
-import faizKhanImg from "../../assets/aboutus_img/core_team/Faiz_khan.jpeg";
+import faizKhanImg from "../../assets/aboutus_img/core_team/Faiz_Khan.jpeg";
 import madhusoodanImg from "../../assets/aboutus_img/core_team/Madhusoodan_M.jpeg";
 import manaviImg from "../../assets/aboutus_img/core_team/Manavi_jaiswal.jpeg";
 import manemImg from "../../assets/aboutus_img/core_team/Manem_Padmasri.jpeg";
