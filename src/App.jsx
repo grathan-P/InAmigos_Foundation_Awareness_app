@@ -7,12 +7,14 @@ import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import Volunteer from "./pages/Volunteer.jsx";
 import Gallery from "./pages/Gallery.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   
   return (
     <>
+      <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
