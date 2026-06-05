@@ -7,6 +7,17 @@ import govindImg from "../../assets/aboutus_img/core_team/Govind_Shukla.jpeg";
 import ramanImg from "../../assets/aboutus_img/core_team/Raman_Swarnakar.jpeg";
 import iniyaImg from "../../assets/aboutus_img/core_team/Iniya_Radhakrishnan.jpeg";
 import khushImg from "../../assets/aboutus_img/core_team/Khush_Gupta.jpeg";
+import akashImg from "../../assets/aboutus_img/core_team/Akash.jpeg";
+import anushaImg from "../../assets/aboutus_img/core_team/Anusha.jpeg";
+import faizKhanImg from "../../assets/aboutus_img/core_team/Faiz_khan.jpeg";
+import madhusoodanImg from "../../assets/aboutus_img/core_team/Madhusoodan_M.jpeg";
+import manaviImg from "../../assets/aboutus_img/core_team/Manavi_jaiswal.jpeg";
+import manemImg from "../../assets/aboutus_img/core_team/Manem_Padmasri.jpeg";
+import shiwaniImg from "../../assets/aboutus_img/core_team/Shiwani.jpeg";
+import shaikShahiraImg from "../../assets/aboutus_img/core_team/Shaik_Shahira_Bhanu.jpeg";
+import vigneshImg from "../../assets/aboutus_img/core_team/Vignesh.jpeg";
+import ramanSImg from "../../assets/aboutus_img/core_team/Raman_Swarnakar.jpeg";
+import sagarikaImg from "../../assets/aboutus_img/core_team/Sagarika_jaiswal.jpeg";
 
 export default function CoreTeam() {
   // State to handle floating panel visibility
@@ -46,17 +57,17 @@ export default function CoreTeam() {
     { name: "Raman Swarnakar", role: "Chief Operating Officer", image: ramanImg },
     { name: "Iniya Radhakrishnan", role: "Head of Internship Dept.", image: iniyaImg },
     { name: "Khush Gupta", role: "Deputy Head (Core Member)", image: khushImg },
-    { name: "Akash", role: "Volunteer Associate", image: "../../src/assets/aboutus_img/core_team/Akash.jpeg" },
-    { name: "Anusha", role: "Junior core member", image: "../../src/assets/aboutus_img/core_team/Anusha.jpeg" },
-    { name: "Faiz Khan", role: "Volunteer Supervisor Uttar pradesh", image: "../../src/assets/aboutus_img/core_team/Faiz_khan.jpeg" },
-    { name: "Madhusoodan M", role: "CSR lead", image: "../../src/assets/aboutus_img/core_team/Madhusoodan_M.jpeg" },
-    { name: "Manavi Jaiswal", role: "Junior Volunteer Associate", image: "../../src/assets/aboutus_img/core_team/Manavi_jaiswal.jpeg" },
-    { name: "Manem Padmasri", role: "JuniorCore-member", image: "../../src/assets/aboutus_img/core_team/Manem_Padmasri.jpeg" },
-    { name: "Sagarika Jaiswal", role: "Head of core member", image: "../../src/assets/aboutus_img/core_team/Sagarika_jaiswal.jpeg" },
-    { name: "Raman Swarnakar", role: "Chief Operating Officer", image: "../../src/assets/aboutus_img/core_team/Raman_Swarnakar.jpeg" },
-    { name: "Shiwani", role: "Team leader of core member", image: "../../src/assets/aboutus_img/core_team/Shiwani.jpeg" },
-    { name: "Shaik Shahira Bhanu", role: "Senior Core-member", image: "../../src/assets/aboutus_img/core_team/Shaik_Shahira_Bhanu.jpeg" },
-    { name: "Vignesh", role: "Junior Core-member", image: "../../src/assets/aboutus_img/core_team/Vignesh.jpeg" },
+    { name: "Akash", role: "Volunteer Associate", image: akashImg },
+    { name: "Anusha", role: "Junior core member", image: anushaImg },
+    { name: "Faiz Khan", role: "Volunteer Supervisor Uttar pradesh", image: faizKhanImg },
+    { name: "Madhusoodan M", role: "CSR lead", image: madhusoodanImg },
+    { name: "Manavi Jaiswal", role: "Junior Volunteer Associate", image: manaviImg },
+    { name: "Manem Padmasri", role: "JuniorCore-member", image: manemImg },
+    { name: "Sagarika Jaiswal", role: "Head of core member", image: sagarikaImg },
+    { name: "Raman Swarnakar", role: "Chief Operating Officer", image: ramanSImg },
+    { name: "Shiwani", role: "Team leader of core member", image: shiwaniImg },
+    { name: "Shaik Shahira Bhanu", role: "Senior Core-member", image: shaikShahiraImg },
+    { name: "Vignesh", role: "Junior Core-member", image: vigneshImg },
   ];
 
   return (
