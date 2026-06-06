@@ -14,7 +14,33 @@ This is the InAmigos Foundation Awareness App, built with React and Vite to help
 - Built as a modern single-page React application.
 - Deployed and accessible online through Vercel.
 
-## Key Impact
+## Why I Built This Project
+
+This project was developed to create awareness about the initiatives and impact of InAmigos Foundation. The goal was to design a modern, responsive, and accessible platform that allows visitors to explore the foundation's programs, achievements, volunteer opportunities, and community impact.
+
+## Tech Stack
+
+- React.js
+- Vite
+- React Router
+- Tailwind CSS
+- React Icons
+- Vercel (Deployment)
+
+## Features
+
+- Responsive Design
+- NGO Awareness Platform
+- Project Showcase
+- Volunteer Information Portal
+- Interactive Gallery
+- Core Team Section
+- Impact Video Modal
+- Contact Information
+- SEO Optimized
+- Google Search Console Integration
+
+## Objectives
 
 - Raises awareness about the foundation's mission and the communities it serves.
 - Creates a clean digital presence that builds trust and visibility.
