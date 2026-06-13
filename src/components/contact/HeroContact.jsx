@@ -21,7 +21,7 @@ const handleSubmit = (e) => {
   e.preventDefault();
 
   setMessage(
-    "Thank you for reaching out! The contact service is currently under maintenance. Please contact InAmigos Foundation through their official website or social media channels for immediate assistance."
+    "Thank you for reaching out! The contact service is currently under maintenance."
   );
 };
 
